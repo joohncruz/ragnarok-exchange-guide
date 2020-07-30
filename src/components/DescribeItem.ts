@@ -1,5 +1,5 @@
-import { ItemExchange } from '../interfaces/ItemExchange'
-import { BgGreen, Reset, BgRed } from '../utils/consoleColors'
+import { ItemExchange } from '../models/ItemExchange'
+import { BgGreen, Reset, BgRed } from '../utils/ColorsUtils'
 
 export default function DescribeItem(item: ItemExchange): void {
   const date = new Date()
